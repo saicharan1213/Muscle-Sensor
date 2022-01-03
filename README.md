@@ -1,5 +1,5 @@
- # Heading 1 #
- <p> The aim is to design a Bio Medical device which is capable of detecting seizures and send notifications if any abnormalities occur.</p>
+ # Overview #
+ <p> The aim is to design a Bio Medical device which is capable of detecting seizures and send notifications if any abnormalities occur. For future extension we want to optimize the working as well as make it as a carryable device which is equipped with a GSM module.</p>
  
 # Working #
 1. Muscle sensor collects the data from the electrodes.
