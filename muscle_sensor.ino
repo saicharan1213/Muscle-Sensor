@@ -3,8 +3,8 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "Saketh";
-const char* pass = "123456789";
+const char* ssid = "XXXXXXXX";
+const char* pass = "XXXXXXXX";
 
 const char* mqttServer = "broker.hivemq.com";
 const int mqttPort = 1883;
@@ -42,7 +42,7 @@ void loop()
  if(y1>threshold)
   {
   digitalWrite(led,LOW);
-  client.publish("muscle/vjit/mini","Person in danger");
+  client.publish("muscle/XXXX/mini","Person in danger");
   
   Serial.println("data sent");
   }
